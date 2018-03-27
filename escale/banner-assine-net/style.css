@@ -1,0 +1,129 @@
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none
+}
+
+.escale {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.component-wrapper {
+    margin: 0 auto 70px;
+}
+
+.CheckAvailability {
+  
+}
+
+.CheckAvailability {
+    width: 100%;
+    display: block;
+    position: relative;
+    padding: 14px;
+    border-radius: 8px;
+    border: 1px solid #d7d7d9;
+    background: #f2f3f5;
+    margin: 0 auto;
+}
+
+.CheckAvailability-title {
+    font-family: "Raleway","Roboto",sans-serif;
+    font-size: 1rem;
+    color: #000;
+    font-weight: 900;
+    text-align: center;
+    height: 30px;
+    width: 100%;
+    line-height: 1.875rem
+}
+
+.CheckAvailability-form {
+    width: 100%;
+    display: block;
+    position: relative;
+    padding: 9px 0;
+    overflow: hidden
+}
+
+.CheckAvailability-formInput {
+    width: 68.125%;
+    height: 37px;
+    display: block;
+    position: relative;
+    float: left;
+    border: 1px solid #e3e3e3;
+    border-radius: 8px;
+    background: #fff url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAUCAYAAABWMrcvAAABHUlEQVQ4jY3SOy+DURzH8U9bItowiMvEbpNQETEYvQovjzdg10RY6GRoSkhEgkokdatWGgzPefR40lZ/2//yPf/byfmrOaxgCSV8ooEa6viGXARsopzxxbrDAVqFCFgfAsBU6KBWwAJ2omATFRzjChOYCbESFLAVZoEX7OMB7WBfhCrzIWc2j8WoyllIzupIWAIm8ihGwacB87TRSo083qLg9ABoHJMxdBsFVzHWByqHXOgU0MVycBQlMzbxIVnABtaiB+rpXXb11vqf9tKS1RGBGzymUA3PI0An9Ib7kvyAYbqUfN5fiOTy9wOAbvxoPhOs6F0+VlWy0b5QA+cZ3ytOY0cWEtp4j+zD0N5QqBMSSea87pMzUNui/xbrB2vlPRRvTxPKAAAAAElFTkSuQmCC") 12px no-repeat;
+    padding: 10px 10px 10px 40px;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    font-family: "Open Sans",sans-serif;
+    font-weight: 400
+}
+
+
+.CheckAvailability-formSubmit {
+    width: 30.25%;
+    height: 37px;
+    border-radius: 3px;
+    background: #5da7e5;
+    cursor: pointer;
+    text-align: center;
+    border: none;
+    float: right;
+    border-bottom: 5px solid #1d6eb2;
+    font-family: "Raleway","Roboto",sans-serif;
+    color: #fff;
+    font-size: .75rem;
+    padding: 0;
+    font-weight: 900;
+    letter-spacing: .0625rem;
+    text-shadow: 0 1px rgba(0,0,0,.46)
+}
+
+
+@media (min-width: 992px) {
+    .CheckAvailabilityWrapper {
+        padding:10px 0;
+        background: #f2f3f5;
+        border: 1px solid #d7d7d9;
+        border-radius: 5px
+    }
+
+    .CheckAvailability {
+        border: none;
+        border-radius: 0;
+        padding: 0;
+        width: 670px;
+        margin: 0 auto;
+        overflow: hidden
+    }
+
+    .CheckAvailability-title {
+        height: 37px;
+        line-height: 2.3125rem;
+        width: 40%;
+        float: left;
+        background-color: #f2f3f5
+    }
+
+    .CheckAvailability-title.ab-testing {
+        width: 52%
+    }
+
+    .CheckAvailability-form {
+        width: 60%;
+        padding: 0;
+        float: left
+    }
+
+    .CheckAvailability-form.ab-testing {
+        width: 48%
+    }
+}s
