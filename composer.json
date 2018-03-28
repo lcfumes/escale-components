@@ -1,4 +1,7 @@
 {
   "name": "lcfumes/escale-components",
-  "type": "library"
+  "type": "library",
+  "require": {
+    "composer/installers": "^1.5"
+  }
 }
