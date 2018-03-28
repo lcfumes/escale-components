@@ -1,6 +1,6 @@
 {
   "name": "lcfumes/escale-components",
-  "type": "library",
+  "type": "wordpress-plugin",
   "require": {
     "composer/installers": "^1.5"
   }
